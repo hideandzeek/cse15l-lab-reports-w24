@@ -2,7 +2,7 @@
 
 Zeke Wang 
 
-## command cd
+## command `cd`
 1. no argument
 ![Image](cd1.png)
 
