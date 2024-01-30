@@ -18,7 +18,7 @@ The working directory at the beginning was /home. Using cd with the argument lec
 
 The working directory was /home/lecture1. Using cd with the argument for a file gave an error message. This error appeared because the current directory did not have the files, hence they could not be accessed.
 
-## command ls
+## command `ls`
 1. no argument
 ![Image](ls1.png)
 
@@ -34,7 +34,7 @@ The working directory was /home. The output listed the names of the files in the
 
 The working directory was /home. The output gave an error message with a file as an argument. This error occurred because the currently working directory could not access the specified file, which was in another directory, /home/lecture1.
 
-## command cat
+## command `cat`
 1. no argument
 ![Image](cat1.png)
 
