@@ -53,6 +53,7 @@ class ChatServer {
 }
 ```
 screenshots: 
+
 ![Image](p1s1.png)
 
 In this screenshot, after I typed in the URL, the first methods called were `handleRequest()` in the `ChatHandler` class which is followed by other methods in the class like `split()`, `replace()`, and `isEmpty()`. The chatlog is initially empty, but after the URL the message parameter `s` changes from empty to `i had a farm` and the `user` changes to `old macdonald`. Finally, the `+` characters from the spaces are replaced with spaces. 
