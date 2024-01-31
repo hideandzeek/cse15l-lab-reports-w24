@@ -2,6 +2,8 @@
 
 Zeke Wang
 
+## part 1
+
 ```
 import java.io.IOException;
 import java.net.URI;
@@ -49,3 +51,12 @@ class ChatServer {
     }
 }
 ```
+
+![Image](p1s1.png)
+
+
+![Image](p1s2.png)
+
+
+## part 2
+
