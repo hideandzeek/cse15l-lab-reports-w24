@@ -52,6 +52,7 @@ class ChatServer {
     }
 }
 ```
+
 screenshots: 
 
 ![Image](p1s1.png)
@@ -64,6 +65,7 @@ This second screenshot shows the same thing. The same `handleRequest()` method a
 
 ## part 2
 screenshots: 
+
 ![Image](p2private.png)
 
 My login key is saved as a private file called `id_rsa.pub`. As the screenshot shows, the absolute path to this file is `/Users/hideandzeek/.ssh/id_rsa.pub`.
