@@ -60,4 +60,15 @@ In this screenshot, after I typed in the URL, the first methods called were `han
 This second screenshot shows the same thing. The same `handleRequest()` method and then `split()`, `replace()`, and `isEmpty()` are called. This time, the parameters are changed to different values; `s` becomes `ee i ee i`, and `user` becomes `kid1`. The same happens later with `s` to `oo` and user to `kid2`. Finally the `+` is changed to spaces. 
 
 ## part 2
+screenshots: 
+![Image](p2private.png)
+My login key is saved as a private file called `id_rsa.pub`. As the screenshot shows, the absolute path to this file is `/Users/hideandzeek/.ssh/id_rsa.pub`.
 
+![Image](p2public.png)
+The public key was copied to my account during lab, therefore it's stored in a file on `ieng6`'s file system. The absolute path to the key is `/home/linux/ieng6/oce/33/733/ziw098/.ssh/authorized_keys`.
+
+![Image](p2nopassword.png)
+This screenshot shows that after typing in `ssh ziw090@ieng6.ucsd.edu`, I logged on without being prompted to type my password. 
+
+## part 3
+During the lab, I learned how to generate ssh key and enable access to remote accounts without being prompted to type my password. I was able to do this by first creating a key file and then copying the key to the remote server. I also learned new commands such as `mkdir` and `scp` that allowed me to create new directories to store my key and also securely copy it from my personal computer to the remote server. 
