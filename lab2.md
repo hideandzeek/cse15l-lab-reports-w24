@@ -68,7 +68,7 @@ screenshots:
 
 ![Image](p2private.png)
 
-My login key is saved as a private file called `id_rsa.pub`. As the screenshot shows, the absolute path to this file is `/Users/hideandzeek/.ssh/id_rsa.pub`.
+When I generated an ssh key the output gave me: `Your identification has been saved in /Users/hideandzeek/.ssh/id_rsa` which tells me that my login key is saved as a private file called `id_rsa`. As the screenshot shows, the absolute path to this file is `/Users/hideandzeek/.ssh/id_rsa`.
 
 ![Image](p2public.png)
 
