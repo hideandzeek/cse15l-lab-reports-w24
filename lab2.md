@@ -57,11 +57,12 @@ screenshots:
 
 ![Image](p1s1.png)
 
-In this screenshot, after I typed in the URL, the first methods called were `handleRequest()` in the `ChatHandler` class which is followed by other methods in the class like `split()`, `replace()`, and `isEmpty()`. The chatlog is initially empty, but after the URL the message parameter `s` changes from empty to `i had a farm` and the `user` changes to `old macdonald`. Finally, the `+` characters from the spaces are replaced with spaces. 
+Upon typing the URL, the initial method called is `handleRequest()` within the ChatHandler class. This method handles the incoming URL request. Subsequently, various methods such as `split()`, `replace()`, and `isEmpty()` are called within the `handleRequest()` method to parse the URL query parameters and manipulate strings accordingly. Initially, the chatLog variable within the ChatHandler class is empty. However, after the URL is processed, the value of the message parameter `s` changes from empty to `i had a farm`, and the user parameter changes to `old macdonald`. These values are extracted from the URL query parameters and appended to the chatLog string.
 
 ![Image](p1s2.png)
 
-This second screenshot shows the same thing. The same `handleRequest()` method and then `split()`, `replace()`, and `isEmpty()` are called. This time, the parameters are changed to different values; `s` becomes `ee i ee i`, and `user` becomes `kid1`. The same happens later with `s` to `oo` and user to `kid2`. Finally the `+` is changed to spaces. 
+Similar to the first scenario, the chatLog variable within the ChatHandler class is initially empty. However, after processing the URL, the values of the message parameter `s` and user parameter change. Initially, `s` becomes `ee i ee i` and user becomes `kid1`. These values are extracted from the URL query parameters and appended to the chatLog string. Subsequently, another URL request is processed, resulting in the message parameter `s` being changed to `oo` and the user parameter becoming `kid2`. Again, these values are appended to the chatLog string after appropriate processing. As before, within the handleRequest() method, the `+` characters are replaced with spaces to ensure proper formatting of the message and user parameters before they are added to the chatLog.
+
 
 ## part 2
 screenshots: 
