@@ -57,23 +57,24 @@ Fix: The bug was in the `reversed()` method where the elements of the new array 
 command: `grep`
 
 `-i` - 
-![Image](symptom.png)
+![Image](-i1.png)
 
-![Image](symptom.png)
+![Image](-i2.png)
 
 `-c`
-![Image](symptom.png)
+![Image](-c1.png)
 
-![Image](symptom.png)
+![Image](-c2.png)
 
 `-v`
-![Image](symptom.png)
+![Image](-v1.png)
 
-![Image](symptom.png)
+![Image](-v2.png)
+
 `-l`
-![Image](symptom.png)
+![Image](-l1.png)
 
-![Image](symptom.png)
+![Image](-l2.png)
 
 
 
