@@ -4,6 +4,7 @@ Zeke Wang
 
 ## part 1 - bugs
 
+I will choose the bug of `reversed()` from ArrayExamples.java.
 1. A failure-inducing input for the buggy program, as a JUnit test and any associated code (write it as a code block in Markdown)
 
 ```
@@ -81,4 +82,4 @@ The grep -v command is used to print out lines that do not contain the specified
 ![Image](-l2.png)
 The grep -l command is used to print only the names of files that contain the specified word. This is useful when you want to quickly identify files that contain a specific word without needing to inspect the content of each file individually.
 
-I found all the ways to use `grep` using `man grep` in my terminal. But I also looked up ways to use grep and picked one from this[website](https://man7.org/linux/man-pages/man1/grep.1.html).
+I found all the ways to use `grep` using `man grep` in my terminal. But I also looked up ways to use grep online, this is the [website](https://man7.org/linux/man-pages/man1/grep.1.html) I used, which is pretty much like `man grep`.
