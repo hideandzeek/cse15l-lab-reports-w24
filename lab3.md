@@ -54,3 +54,27 @@ Fix: The bug was in the `reversed()` method where the elements of the new array 
 
 ## part 2 - researching commands
 
+command: `grep`
+
+`-i` - 
+![Image](symptom.png)
+
+![Image](symptom.png)
+
+`-c`
+![Image](symptom.png)
+
+![Image](symptom.png)
+
+`-v`
+![Image](symptom.png)
+
+![Image](symptom.png)
+`-l`
+![Image](symptom.png)
+
+![Image](symptom.png)
+
+
+
+[website](https://man7.org/linux/man-pages/man1/grep.1.html)
