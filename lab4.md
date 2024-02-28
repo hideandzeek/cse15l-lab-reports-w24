@@ -4,7 +4,7 @@ Zeke Wang
 
 ![Image](lab41.png)
 
-keys pressed: 
+keys pressed/typed: 
 1. ```<ssh ziw098@ieng6.ucsd.edu>```
 2. ```<enter>``` 
 
@@ -12,7 +12,7 @@ summary: I first logged onto the remote server using the ssh command.
 
 ![Image](lab42.png)
 
-keys pressed: 
+keys pressed/typed: 
 1. ```git clone git@github.com:hideandzeek/lab7.git```
 2. ```<enter>```
 
@@ -20,7 +20,7 @@ summary: I cloned the repository ```lab7``` using git clone and the ssh link.
 
 ![Image](lab43.png)
 
-keys pressed: 
+keys pressed/typed: 
 1. ```cd lab7```
 2. ```<enter>``` 
 3. ```ls```
@@ -32,7 +32,7 @@ summary: I change my working directory into ```lab7```, and use the ```ls``` com
 
 ![Image](lab44.png)
 
-keys pressed: 
+keys pressed/typed: 
 1. ```cd```
 2. ```<enter>```
 3. ```vim lab7```
@@ -44,7 +44,7 @@ summary: The test results tell me there is an error, so I changed my working dir
 
 ![Image](lab45.png)
 
-keys pressed: 
+keys pressed/typed: 
 1. ```<j>``` until ```index1```
 2. ```<i>``` 
 3. ```<backspace>```
@@ -57,7 +57,7 @@ summary: I press ```<j>``` until ```index1``` which is labeled to be fixed to ``
 
 ![Image](lab46.png)
 
-keys pressed: 
+keys pressed/typed: 
 1. ```cd lab7```
 2. ```<enter>```
 3. ```bash test.sh```
