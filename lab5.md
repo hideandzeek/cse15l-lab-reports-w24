@@ -52,7 +52,7 @@ Thanks for the suggestion. I added some print statements inside the loop as you 
 
 ![Image](lab52.png)
 
-After adding print statements, it's observed that the loop is not correctly identifying all odd numbers in the array. The issue lies with negative odd numbers not being counted. This is because the condition ```arr[i]%2 == 1``` only identifies positive odd numbers. To fix the bug, modify the condition arr[i]%2 == 1 to arr[i] % 2 != 0. This will correctly identify both positive and negative odd numbers in the array.
+After adding print statements, it's observed that the loop is not correctly identifying all odd numbers in the array. The issue lies with negative odd numbers not being counted. This is because the condition ```arr[i]%2 == 1``` only identifies positive odd numbers. To fix the bug, modify the condition ```arr[i]%2 == 1``` to ```arr[i] % 2 != 0```. This will correctly identify both positive and negative odd numbers in the array.
 
 Code: 
 ```
