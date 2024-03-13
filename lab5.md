@@ -52,7 +52,9 @@ Thanks for the suggestion. I added some print statements inside the loop as you 
 
 ![Image](lab52.png)
 
-After adding print statements, it's observed that the loop is not correctly identifying all odd numbers in the array. The issue lies with negative odd numbers not being counted. This is because the condition ```arr[i]%2 == 1``` only identifies positive odd numbers. To fix the bug, modify the condition ```arr[i]%2 == 1``` to ```arr[i] % 2 != 0```. This will correctly identify both positive and negative odd numbers in the array.
+bug description: After adding print statements, it's observed that the loop is not correctly identifying all odd numbers in the array. The issue lies with negative odd numbers not being counted. This is because the condition ```arr[i]%2 == 1``` only identifies positive odd numbers. 
+
+To fix the bug, modify the condition ```arr[i]%2 == 1``` to ```arr[i] % 2 != 0```. This will correctly identify both positive and negative odd numbers in the array.
 
 Code: 
 ```
@@ -76,6 +78,14 @@ Here is a screenshot that it work without the error:
 
 ![Image](lab53.png)
 
+here is my bash file content(unchanged throughout) and the file structure:
+
+test.sh code: 
+```
+javac -cp :lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java
+java -cp :lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore buggyTest
+```
+![Image](lab53.png)
 
 ### Part 2
 For me personally, learning Vim was both challenging and rewarding. It was initially confusing and hard to use, but eventually, I realized its efficiency and speed benefits in text manipulation. The minimalist interface, along with extensive customization possibilities, provides a very efficient way to work. Despite the initial difficulty and confusion of using and learning, I think Vim is a very unique and efficient editing system that doesn't require a mouse. This makes it a very valuable skill for developers seeking mastery over their coding environments.
