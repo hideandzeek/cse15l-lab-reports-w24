@@ -64,5 +64,14 @@ keys pressed/typed:
 
 summary: I againchange my working directory into ```lab7``` and run the provided bash test. This time all the tests pass meaning the bug has been fixed. 
 
+![Image](lab47.png)
+
+keys pressed/typed: 
+1. ```git add ListExamples.java```
+2. ```git commit -m labreport4```
+
+summary: I committed and pushed the changes to my github account with the commit message ```labreport4```.
+
+
 
 
