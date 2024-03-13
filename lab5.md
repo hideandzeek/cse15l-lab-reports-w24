@@ -85,7 +85,7 @@ test.sh code:
 javac -cp :lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java
 java -cp :lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore buggyTest
 ```
-![Image](lab53.png)
+![Image](lab54.png)
 
 ### Part 2
 For me personally, learning Vim was both challenging and rewarding. It was initially confusing and hard to use, but eventually, I realized its efficiency and speed benefits in text manipulation. The minimalist interface, along with extensive customization possibilities, provides a very efficient way to work. Despite the initial difficulty and confusion of using and learning, I think Vim is a very unique and efficient editing system that doesn't require a mouse. This makes it a very valuable skill for developers seeking mastery over their coding environments.
